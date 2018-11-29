@@ -57,5 +57,29 @@
 	#section-2 .text h1{	
 		font-size: 40px;
 		margin: 0px;
+	}
+	#contact{
+		width: 80%;
+	}		
+	.banner{
+		width: 50%;
+	}		
+	#footer div h1{
+		font-size: 30px;
+		margin-top: 0px;
+	}
+	#footer div p{
+		font-size: 15px;
+		margin-top: 0px;
+		margin-bottom: 5px;
+	}		
+	#footer div h3{
+		font-size: 25px;
 	}	
+	#footer > div{
+		padding-top: 20px;
+	}	
+	#footer{
+		padding-bottom: 30px;
+	}
 }
