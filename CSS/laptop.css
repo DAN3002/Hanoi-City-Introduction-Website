@@ -1,0 +1,62 @@
+@media only screen and (min-width: 992px){
+	#body-container{
+		padding-right: 60px;
+		padding-left: 60px		
+	}
+	#slider{
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	.menu .menu-item{
+		font-size: 20px;
+		padding-bottom: 12.5px;
+		padding-top: 12.5px;
+	}	
+	.right{
+		float: right;
+	}
+	#logo img{
+		height: 45px;
+		width: 45px;
+	}
+	#slider-controller{
+		font-size: 45px;
+	}
+	#slider-indicator .indicator-item{
+		width: 10px;
+		height: 10px	
+	}
+	#slider-indicator{
+		left: 45%;
+	}
+	#introduce, #slider{
+		padding-right: 0px;
+		padding-left: 0px;
+	}
+	#section-1 #introduce h1{
+		font-size: 32px;
+	}
+	#section-1 #introduce p{
+		font-size: 17px;
+	}
+	#section-1 #introduce {
+		padding-right: 10px;
+		padding-left: 20px;
+		margin-top: auto;
+		margin-bottom: auto;
+	}		
+	#section-2 div{
+		padding: 0px 60px;
+	}
+	.image-item img{
+		width: 100%;
+		height: auto;
+		margin-top: 30px;
+	}
+	#section-2{
+		padding-top: 40px;
+	}	
+	#section-2 .text h1{	
+		font-size: 50px;
+	}	
+}

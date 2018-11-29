@@ -1,0 +1,70 @@
+@media only screen and (max-width: 768px){
+	.menu{
+		background-color: #8A8989;			
+	}
+	.menu .menu-item{
+		font-size: 4vw;
+		width: 20%;
+		padding: 2.5vw 0px;	
+	}
+	#logo{	
+		width: 100%;
+		padding: 2vw 46vw 2vw 46vw;
+	}
+	#logo img{
+		width: 8vw;
+		height: auto;
+	}
+	#slider-controller{
+		font-size: 8vw;
+	}
+	#slider-indicator .indicator-item{
+		width: 2vw;
+		height: 2vw;	
+	}
+	#slider-indicator{
+		padding-right: 35vw;
+		padding-left: 35vw;
+	}
+	#introduce, #slider{
+		padding-right: 0px;
+		padding-left: 0px;
+	}
+	#section-1 #introduce h1{
+		font-size: 6vw;
+	}
+	#section-1 #introduce p{
+		font-size: 3vw;
+	}
+	#section-1 #introduce {
+		padding-left: 3vw;
+	}	
+	.image-item img{
+		width: 100%;
+		height: auto;
+		margin-top: 10vw;
+	}
+	#body-container{
+		padding-left: 5vw;
+		padding-right: 5vw;
+	}
+	#section-2 .text h1{	
+		font-size: 8vw;
+		margin: 0px;
+		margin-top: 4vw;
+	}	
+	#section-2{
+		padding-bottom: 8vw;
+	}
+	.contact-item
+	{
+		display: inline-block;
+		width: 30%;
+		height: auto;
+	}
+	#contact{
+		width: 80%;
+		margin-left: auto;
+		margin-right: auto;		
+	}
+}

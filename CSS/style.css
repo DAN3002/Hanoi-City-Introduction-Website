@@ -1,0 +1,61 @@
+.menu{  
+	width: 100%;
+}
+#slider{
+	position: relative;
+}
+#slider-controller, #slider-indicator{
+	position: absolute;	
+}
+.indicator-item{
+	border-radius: 50%;
+	background-color: rgba(255, 255, 255, 0.89);
+	display: inline-block;
+}
+.indicator-choosed{
+	background-color: rgba(0, 0, 0, 0.74);
+}
+#slider-indicator{
+	bottom: 0%;
+	width: 100%;	
+}
+#slider-controller{
+	bottom: 40%;
+	width: 100%;
+	color: rgba(255, 255, 255, 0.89);	
+}
+#slider img{
+	width: 100%;
+	height: auto;
+}	
+.row{
+	margin-right: 0px;
+	margin-left: 0px;
+}
+#section-1{
+	background-color: #E0E0E0;
+}
+#section-1 #introduce h1, #section-2 .text h1{
+	font-family: 'Anton', sans-serif;
+}
+#section-2{
+	background-color: #EAEAEA;	
+}
+#section-2 .text{
+	width: 100%;
+}
+#section-2 .text h1{	
+	text-align: center;
+}	
+#footer{
+	background-color: #DBDBDB;
+}
+.banner a img{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+.banner{
+	width: 30%;
+	margin: 0px auto;
+}

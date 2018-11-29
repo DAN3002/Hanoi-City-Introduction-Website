@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Emblem_of_Hanoi.svg/100px-Emblem_of_Hanoi.svg.png" sizes="20x20">	
+	<title>Hà Nội</title>
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>	
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+
+	<link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+	<link rel="stylesheet" type="text/css" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" type="text/css" href="../CSS/style.css">
+	<link rel="stylesheet" type="text/css" href="../CSS/mobile.css">
+	<link rel="stylesheet" type="text/css" href="../CSS/tablet.css">
+	<link rel="stylesheet" type="text/css" href="../CSS/laptop.css">	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+</head>
+<body>
+	<div class="menu w3-bar menu">
+		<a href="index.html" id="logo" class="w3-bar-item">
+			<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Emblem_of_Hanoi.svg/100px-Emblem_of_Hanoi.svg.png">
+		</a>
+	<div class="right">
+		<a href="#" class="menu-item w3-bar-item w3-button">Home</a>
+		<a href="#" class="menu-item w3-bar-item w3-button">Văn hóa</a>
+		<a href="#" class="menu-item w3-bar-item w3-button">Ẩm thực</a>
+		<a href="#" class="menu-item w3-bar-item w3-button">Du lịch</a>
+		<a href="#" class="menu-item w3-bar-item w3-button">Lịch sử</a>			
+	</div>
+	</div>	
+	<div id="body-container">
+		<div class="row" id="section-1">
+			<div id="slider" class="col-lg-6 col-sm-12">
+				<img src="../Data/Image/sliderImage_1.png" alt="Image1" class="slider-item" id="slider-item0">
+				<img src="../Data/Image/sliderImage_2.png" alt="Image2" class="slider-item" id="slider-item1">
+				<img src="../Data/Image/sliderImage_3.png" alt="Image3" class="slider-item" id="slider-item2">
+				<img src="../Data/Image/sliderImage_4.png" alt="Image4" class="slider-item" id="slider-item3">
+				<div id="slider-controller">
+				    <div class="w3-left w3-hover-text-khaki" onclick="preItem()">&#10094;</div>
+				    <div class="w3-right w3-hover-text-khaki" onclick="nextItem()">&#10095;</div>
+			    </div>		
+			    <div id="slider-indicator">
+			    	<div class="indicator-item" id="indicator-item0" onclick="showItem(0)"></div>
+			    	<div class="indicator-item" id="indicator-item1" onclick="showItem(1)"></div>
+			    	<div class="indicator-item" id="indicator-item2" onclick="showItem(2)"></div>
+			    	<div class="indicator-item" id="indicator-item3" onclick="showItem(3)"></div>
+			    </div>		    	
+			</div>	
+			<div id="introduce" class="col-lg-6 col-sm-12" data-aos="fade-right" data-aos-duration="1000"> 
+				<h1>Giới thiệu</h1>
+				<p>Thành phố Hà Nội là Thủ đô ngàn năm văn hiến với những di tích cổ xưa, cuộc sống yên bình. Nếu đã một lần du lịch Hà Nội, chắc chắn bạn không thể nào quên không khí đặc trưng nơi đây, với Hồ Gươm, Hồ Tây, những quán cafe trầm mặc, những con đường nhỏ và những gánh hàng rong.</p>
+			</div>				
+		</div>
+		<div class="row" id="section-2">
+			<div class="text">
+				<h1>Mục Lục</h1>
+			</div>
+			<div class="col-sm-12 col-lg-6 col-md-6" data-aos="fade-in" data-aos-duration="1000">
+				<a href="#" class="image-item"><img src="../Data/Image/LichSu.png" alt="Lịch sử"></a>
+				<a href="#" class="image-item"><img src="../Data/Image/DuLich.png" alt="Du lịch"></a>
+			</div>
+			<div class="col-sm-12 col-lg-6 col-md-6" data-aos="zoom-in" data-aos-duration="1000">
+				<a href="#" class="image-item"><img src="../Data/Image/VanHoa.png" alt="Văn hóa"></a>
+				<a href="#" class="image-item"><img src="../Data/Image/AmThuc.png" alt="Ẩm thực"></a>					
+			</div>
+		</div>
+		<div class="row" id="footer">
+			<div class="col-sm-12 col-lg-4">
+				<h1>Tác giả</h1>
+				<p>Nguyễn Đình Anh</p>
+				<p>&#169; Copyright 2018 - Nguyễn Đình Anh</p>
+			</div>
+			<div class="col-sm-12 col-lg-4" >
+				<p>Đây là một bài Assignment của trường Đại Học Trực Tuyến FUNiX</p>
+				<div class="banner"><a href="https://funix.edu.vn/"><img src="http://www.funix.edu.vn/wp-content/uploads/2017/10/logo.png" alt="Funix-Banner"></a></div>
+			</div>
+			<div class="col-sm-12 col-lg-4">
+				<h1>Liên hệ với tác giả</h1>
+				<div id="contact">
+					<img src="../Data/Image/Github.png" alt="Github" class="contact-item">
+					<img src="../Data/Image/Gmail.png" alt="Gmail" class="contact-item">
+					<img src="../Data/Image/Youtube.png" alt="Youtube" class="contact-item">
+				</div>
+			</div>
+		</div>				
+	</div>
+	<script type="text/javascript" src="../JS/slider.js"></script>
+	 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+	  <script>
+	    AOS.init();
+	  </script>	
+</body>
+</html>
