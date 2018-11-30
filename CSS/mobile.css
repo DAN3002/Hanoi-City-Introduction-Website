@@ -44,9 +44,9 @@
 		height: auto;
 		margin-top: 10vw;
 	}
-	#body-container{
-		padding-left: 5vw;
-		padding-right: 5vw;
+	body{
+		padding-left: 3vw;
+		padding-right: 3vw;
 	}
 	#section-2 .text h1{	
 		font-size: 8vw;

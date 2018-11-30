@@ -1,0 +1,42 @@
+@media only screen and (min-width: 992px){
+	body{
+		padding-right: 60px;
+		padding-left: 60px		
+	}	
+	#contact{
+		width: 50%;
+	}		
+	#footer div h1{
+		font-size: 35px;
+		margin-top: 0px;
+	}
+	#footer div p{
+		font-size: 20px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}		
+	#footer div h3{
+		font-size: 30px;
+	}	
+	#footer > div{
+		padding-top: 20px;
+	}		
+	#footer{
+		padding-bottom: 35px;
+	}	
+	.banner{
+		width: 25%;
+	}	
+	.menu .menu-item{
+		font-size: 20px;
+		padding-bottom: 12.5px;
+		padding-top: 12.5px;
+	}	
+	.right{
+		float: right;
+	}
+	#logo img{
+		height: 45px;
+		width: 45px;
+	}		
+}

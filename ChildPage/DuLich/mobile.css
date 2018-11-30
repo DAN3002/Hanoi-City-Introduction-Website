@@ -1,0 +1,40 @@
+@media only screen and (max-width: 768px){	
+	body{
+		padding-left: 3vw;
+		padding-right: 3vw;
+	}	
+	.menu{
+		background-color: #8A8989;			
+	}
+	.menu .menu-item{
+		font-size: 4vw;
+		width: 20%;
+		padding: 2.5vw 0px;	
+	}
+	#logo{	
+		width: 100%;
+		padding: 2vw 46vw 2vw 46vw;
+	}
+	#logo img{
+		width: 8vw;
+		height: auto;
+	}	
+	#contact{
+		width: 80%;
+	}	
+	.banner{
+		width: 50%;
+	}
+	#footer div h1{
+		font-size: 10vw;		
+	}
+	#footer div p{
+		font-size: 5vw;
+	}	
+	#footer div h3{
+		font-size: 8vw;		
+	}	
+	#footer{
+		padding-bottom: 4vh;
+	}	
+}

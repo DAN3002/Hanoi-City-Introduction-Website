@@ -1,0 +1,38 @@
+.menu{  
+	width: 100%;
+}
+.row{
+	margin-right: 0px;
+	margin-left: 0px;
+}
+#footer{
+	background-color: #DBDBDB;
+}
+.banner a img{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+.banner{
+	width: 30%;
+	margin: 0px auto;
+}
+.contact-item
+{
+	display: inline-block;
+	width: 30%;
+	height: auto;
+}
+#contact{
+	margin-left: auto;
+	margin-right: auto;		
+}
+#footer div h1{
+	font-family: 'Pacifico', cursive;
+}
+#footer div p{
+	font-family: 'Maven Pro', sans-serif;
+}
+#footer div h3{
+	font-family: 'Kanit', sans-serif
+}
