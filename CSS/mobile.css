@@ -30,12 +30,6 @@
 		padding-right: 0px;
 		padding-left: 0px;
 	}
-	#section-1 #introduce h1{
-		font-size: 6vw;
-	}
-	#section-1 #introduce p{
-		font-size: 3vw;
-	}
 	#section-1 #introduce {
 		padding-left: 3vw;
 	}	
@@ -62,10 +56,10 @@
 	.banner{
 		width: 50%;
 	}
-	#footer div h1{
+	#footer div h1,#section-1 #introduce h1{
 		font-size: 10vw;		
 	}
-	#footer div p{
+	#footer div p,#section-1 #introduce p{
 		font-size: 5vw;
 	}	
 	#footer div h3{
