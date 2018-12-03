@@ -37,4 +37,9 @@
 	#footer{
 		padding-bottom: 4vh;
 	}	
+	.row > div > img{
+		width: 100%;
+		height: auto;
+	}
+
 }
