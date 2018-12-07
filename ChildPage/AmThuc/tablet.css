@@ -40,5 +40,15 @@
 	#footer{
 		padding-bottom: 30px;
 	}
+	div[id^="section"] > div:first-child{
+		padding: 0px;
+	}
+	div[id^="section"]{
+		margin-bottom: 40px;
+	}
+	div[id^="section"] > div:nth-child(2) > p
+	{
+		margin-top: auto;
+		margin-bottom: auto;		
+	}
 }		
-}

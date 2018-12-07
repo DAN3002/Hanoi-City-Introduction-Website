@@ -36,3 +36,13 @@
 #footer div h3{
 	font-family: 'Kanit', sans-serif
 }
+.row > div > img{
+	width: 100%;
+	height: auto;
+}
+#body-container{
+	background-color: #d3e5e4;
+}
+.row > div > p > b{
+	font-family: 'Pacifico', cursive;
+}
