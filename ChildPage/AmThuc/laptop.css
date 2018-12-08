@@ -39,4 +39,17 @@
 		height: 45px;
 		width: 45px;
 	}		
+	div[id^="section"] > div:first-child{
+		padding: 40px 20px;
+	}	
+	div[id^="section"] > div:nth-child(2){
+		margin-top: auto;
+		margin-bottom: auto;		
+	}
+	.row > div > p{
+		font-size: 28px;
+	}
+	.row > div > p > b{
+		font-size: 30px;
+	}			
 }

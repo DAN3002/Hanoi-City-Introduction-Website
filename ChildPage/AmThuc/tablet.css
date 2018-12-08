@@ -41,14 +41,23 @@
 		padding-bottom: 30px;
 	}
 	div[id^="section"] > div:first-child{
-		padding: 0px;
+		padding-left: 10px;
+		padding-right: 0px;
 	}
 	div[id^="section"]{
 		margin-bottom: 40px;
 	}
-	div[id^="section"] > div:nth-child(2) > p
-	{
+	div[id^="section"] > div:nth-child(2){
 		margin-top: auto;
 		margin-bottom: auto;		
 	}
+	#body-container{
+		padding-top: 20px;
+	}
+	.row > div > p{
+		font-size: 17px;
+	}
+	.row > div > p > b{
+		font-size: 19px;
+	}	
 }		
