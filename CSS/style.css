@@ -78,3 +78,17 @@
 #footer div h3{
 	font-family: 'Kanit', sans-serif
 }
+.contact-item:hover, .banner a img:hover{
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(150%);	
+  	animation-name: spin;
+  	animation-duration: 1000ms;    
+}
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}

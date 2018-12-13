@@ -27,6 +27,12 @@
 	margin-left: auto;
 	margin-right: auto;		
 }
+.contact-item
+{
+	display: inline-block;
+	width: 30%;
+	height: auto;	
+}
 #footer div h1{
 	font-family: 'Pacifico', cursive;
 }
@@ -45,4 +51,18 @@
 }
 .row > div > p > b{
 	font-family: 'Pacifico', cursive;
+}
+.contact-item:hover, .banner a img:hover{
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(150%);	
+  	animation-name: spin;
+  	animation-duration: 1000ms;    
+}
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
 }
