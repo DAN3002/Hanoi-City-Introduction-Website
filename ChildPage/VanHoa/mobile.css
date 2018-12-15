@@ -37,4 +37,17 @@
 	#footer{
 		padding-bottom: 4vh;
 	}	
+	.section > img{
+		width: 100%;
+		height: 100%;
+	}
+	.section > h2{
+		width: 100%;
+		text-align: center;
+		margin: 0px;
+		font-size: 10vw;
+	}
+	.section > p{
+		font-size: 5vw;
+	}
 }
