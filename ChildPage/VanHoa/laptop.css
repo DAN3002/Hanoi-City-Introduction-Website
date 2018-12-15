@@ -38,5 +38,24 @@
 	#logo img{
 		height: 45px;
 		width: 45px;
-	}		
+	}
+	.section > img{
+		width: 50%;
+		height: 100%;	
+		margin-left: auto;
+		margin-right: auto;	
+		margin-bottom: 30px;
+	}
+	.section > h2{
+		margin-bottom: 15px;
+		margin-top: 15px;
+		font-size: 40px;
+	}
+	.section > p{
+		font-size: 20px;
+	}
+	#body-container{
+		padding-left: 30px;
+		padding-right: 30px;
+	}			
 }

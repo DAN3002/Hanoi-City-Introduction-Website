@@ -40,5 +40,19 @@
 	#footer{
 		padding-bottom: 30px;
 	}
+	.section > img{
+		width: 80%;
+		height: 100%;	
+		margin-left: auto;
+		margin-right: auto;	
+		margin-bottom: 6px;
+	}
+	.section > h2{
+		margin-bottom: 5px;
+		margin-top: 5px;
+		font-size: 35px;
+	}
+	.section > p{
+		font-size: 20px;
+	}	
 }		
-}

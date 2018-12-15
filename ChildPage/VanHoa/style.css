@@ -1,3 +1,7 @@
+@font-face {
+  font-family: myFirstFont;
+  src: url("../../Data/Font/iCiel Crocante.otf");
+}
 .menu{  
 	width: 100%;
 }
@@ -37,7 +41,33 @@
 	font-family: 'Kanit', sans-serif
 }
 .section > h2{
-	font-family: iCiel Crocante;
+	font-family: "myFirstFont", sans-serif;
+}
+.section > h2{
+	width: 100%;
+	text-align: center;
+}
+#body-container{
+	background-color: #d3e5e4;
+}
+.section > img{
+	width: 85%;
+	height: auto;	
+	margin-left: auto;
+	margin-right: auto;	
+	margin-bottom: 2vw;
+}
+.section > h2{
+	margin-bottom: 5px;
+	margin-top: 5px;
+	font-size: 35px;
+}
+.section > p{
+	font-size: 25px;
+}
+#body-container{
+	padding-left: 20px;
+	padding-right: 20px;
 }
 .contact-item:hover, .banner a img:hover{
     -webkit-filter: grayscale(100%);
@@ -53,7 +83,4 @@
         transform:rotate(360deg);
     }
 }
-@font-face{
-  font-family: iCiel Crocante;
-  src: url(../../Data/Font/iCiel Crocante.otf);	
-}
+
