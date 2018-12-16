@@ -1,11 +1,11 @@
 @media only screen and (max-width: 767px){	
 	#body-container{
-		padding-top: 3vh;
-	}
+		padding-top: 3vh;	
+	}	
 	body{
 		padding-left: 3vw;
-		padding-right: 3vw;
-	}	
+		padding-right: 3vw;			
+	}
 	.menu{
 		background-color: #8A8989;			
 	}

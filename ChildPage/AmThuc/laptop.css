@@ -1,7 +1,7 @@
 @media only screen and (min-width: 992px){
-	body{
-		padding-right: 60px;
-		padding-left: 60px		
+	#body-container{
+		margin-left: 200px;
+		margin-right: 200px;
 	}	
 	#contact{
 		width: 50%;
