@@ -85,3 +85,16 @@
 		width: 25%;
 	}	
 }
+
+@media only screen and (min-width: 992px) and (max-width: 1220px){
+	#body-container{
+		margin-left: 100px;
+		margin-right: 100px;
+	}		
+	#section-1 #introduce h1{
+		font-size: 30px;
+	}
+	#section-1 #introduce p{
+		font-size: 15px;
+	}	
+}
