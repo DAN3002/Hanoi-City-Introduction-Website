@@ -55,4 +55,17 @@
 	.section > p{
 		font-size: 20px;
 	}	
+	#goTop{
+		width: 40px;
+		height: 40px;
+		border: 2px solid black;
+		border-radius: 50%;			
+	}
+	#goTop > i{		
+		line-height: 35px;
+		font-size: 20px;
+	}	
+	.top-container{
+		width: 100px;
+	}	
 }		

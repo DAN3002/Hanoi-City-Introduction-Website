@@ -54,4 +54,7 @@
 		padding-left: 5vw;
 		padding-right: 5vw;
 	}
+	.top-container{
+		display: none;
+	}			
 }

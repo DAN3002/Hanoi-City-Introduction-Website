@@ -51,5 +51,25 @@
 	}
 	.row > div > p > b{
 		font-size: 25px;
-	}			
+	}
+	#goTop{
+		width: 60px;
+		height: 60px;
+		border: 3px solid black;
+		border-radius: 50%;			
+	}
+	#goTop > i{		
+		line-height: 55px;
+		font-size: 35px;
+	}	
+	.top-container{
+		width: 200px;
+	}	
+	.top-container > .popup-text{
+		width: 140px;
+		margin-top: 3px;
+		padding-left: 6px;
+		padding-right: 6px;	
+		font-size: 23px;
+	}
 }

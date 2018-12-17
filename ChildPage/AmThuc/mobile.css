@@ -47,4 +47,7 @@
 	.row > div > p > b{
 		font-size: 6vw;
 	}
+	.top-container{
+		display: none;
+	}		
 }

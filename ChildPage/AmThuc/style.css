@@ -52,6 +52,34 @@
 .row > div > p > b{
 	font-family: 'Pacifico', cursive;
 }
+.top-container{
+	z-index: 100;
+	position: fixed;
+	right: 0%;	
+}
+.top-container > .popup-text{
+	opacity: 0.8;
+	background-color: rgba(5, 5, 5, 0.65);
+	color: rgba(255, 255, 255, 0.88);
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 10%;
+	text-align: center;
+}
+#goTop{
+	margin-left: auto;
+	margin-right: auto;	
+	cursor: pointer;	
+	border-radius: 50%;
+}
+#goTop:hover{
+	color: #ACACAC;
+	border-color: #ACACAC;
+}
+#goTop > i{		
+	width: 100%;
+	text-align: center;
+}
 .contact-item:hover, .banner a img:hover{
     -webkit-filter: grayscale(100%);
     filter: grayscale(150%);	
