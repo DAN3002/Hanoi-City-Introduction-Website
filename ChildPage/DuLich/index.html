@@ -7,52 +7,103 @@
 	<title>Hà Nội</title>
 
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>	
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 
-	<link href="https://fonts.googleapis.com/css?family=Anton|Pacifico|Maven+Pro|Kanit" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Anton|Source+Sans+Pro|Inconsolata" rel="stylesheet">
 	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 	<link rel="stylesheet" type="text/css" href="https://www.w3schools.com/w3css/4/w3.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" type="text/css" href="mobile.css">
 	<link rel="stylesheet" type="text/css" href="tablet.css">
 	<link rel="stylesheet" type="text/css" href="laptop.css">	
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>	
 </head>
 <body>
 	<div class="menu w3-bar menu">
 		<a href="../../HTML/index.html" id="logo" class="w3-bar-item">
 			<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Emblem_of_Hanoi.svg/100px-Emblem_of_Hanoi.svg.png">
 		</a>
-	<div class="right">
-		<a href="../../HTML/index.html" class="menu-item w3-bar-item w3-button">Home</a>
-		<a href="../VanHoa/index.html" class="menu-item w3-bar-item w3-button">Văn hóa</a>
-		<a href="../AmThuc/index.html" class="menu-item w3-bar-item w3-button">Ẩm thực</a>
-		<a href="../DuLich/index.html" class="menu-item w3-bar-item w3-button">Du lịch</a>
-		<a href="../LichSu/index.html" class="menu-item w3-bar-item w3-button">Lịch sử</a>			
-	</div>
+		<div class="right">
+			<a href="../../HTML/index.html" class="menu-item w3-bar-item w3-button">Home</a>
+			<a href="../VanHoa/index.html" class="menu-item w3-bar-item w3-button">Văn hóa</a>
+			<a href="../AmThuc/index.html" class="menu-item w3-bar-item w3-button">Ẩm thực</a>
+			<a href="../DuLich/index.html" class="menu-item w3-bar-item w3-button">Du lịch</a>
+			<a href="../LichSu/index.html" class="menu-item w3-bar-item w3-button">Lịch sử</a>			
+		</div>
 	</div>	
-	<div id="body-container">
-		<div class="row" id="footer">
-			<div class="col-sm-12 col-lg-4 col-md-4">
-				<h1>Tác giả</h1>
-				<h3>Nguyễn Đình Anh</h3>
-				<p style="font-weight: bold;">&#169; Copyright 2018 - Nguyễn Đình Anh</p>
+	<div id="body-container" class="row">
+		<h1>Các điểm tham quan nên đến ở Hà Nội</h1>
+		<h3>(Nhấn vào từng ảnh để xem chi tiết)</h3>
+		<div class="col-lg-12 col-md-6 col-sm-12 row">			
+			<div class="data-container col-lg-4 col-md-12 col-sm-12" data-toggle="tooltip" data-placement="top" title="Nhà hát lớn Hà Nội">
+				<img src="https://znews-photo.zadn.vn/w660/Uploaded/tmuitg/2016_08_29/ANh2.jpg" alt="Nhà hát lớn Hà Nội" data-toggle="modal" data-target="#modal" onclick="setData(0)">
 			</div>
-			<div class="col-sm-12 col-lg-4 col-md-4">
-				<p style="font-weight: bold;">Đây là một bài Assignment của trường Đại Học Trực Tuyến FUNiX</p>
-				<div class="banner"><a  target="_blank" href="https://funix.edu.vn/"><img src="http://www.funix.edu.vn/wp-content/uploads/2017/10/logo.png" alt="Funix-Banner"></a></div>
+			<div class="data-container col-lg-4 col-md-12 col-sm-12" data-toggle="tooltip" data-placement="top" title="Nhà Thờ Lớn">
+				<img src="https://znews-photo.zadn.vn/w660/Uploaded/tmuitg/2016_08_29/anh3.jpg" alt="Nhà Thờ Lớn" data-toggle="modal" data-target="#modal" onclick="setData(1)">
 			</div>
-			<div class="col-sm-12 col-lg-4 col-md-4">
-				<h1 style="text-align: center;">Liên hệ với tác giả</h1>
-				<div id="contact">
-					<a href="https://github.com/DAN3002" target="_blank"><img src="../../Data/Image/Github.png" alt="Github" class="contact-item"></a>
-					<a href="https://plus.google.com/u/0/112241420261626809316" target="_blank"><img src="../../Data/Image/Gmail.png" alt="Gmail" class="contact-item"></a>
-					<a href="https://www.youtube.com/channel/UCp8h46TWMs1qjeepv_QWJkA" target="_blank"><img src="../../Data/Image/Youtube.png" alt="Youtube" class="contact-item"></a>
-				</div>
+			<div class="data-container col-lg-4 col-md-12 col-sm-12" data-toggle="tooltip" data-placement="top" title="Cột cờ Hà Nội">
+				<img src="https://znews-photo.zadn.vn/w660/Uploaded/tmuitg/2016_08_29/23_1.jpg" alt="Cột cờ Hà Nội" data-toggle="modal" data-target="#modal" onclick="setData(2)">
 			</div>
-		</div>			
+		</div>
+		<div class="col-lg-12 col-md-6 col-sm-12 row">
+			<div class="data-container col-lg-4 col-md-12 col-sm-12" data-toggle="tooltip" data-placement="top" title="Con đường Gốm Sứ">
+				<img src="https://znews-photo.zadn.vn/w660/Uploaded/tmuitg/2016_08_29/Anh_6.jpg" alt="Con đường Gốm Sứ" data-toggle="modal" data-target="#modal" onclick="setData(3)">
+			</div>
+			<div class="data-container col-lg-4 col-md-12 col-sm-12" data-toggle="tooltip" data-placement="top" title="Cầu Long Biên">
+				<img src="https://znews-photo.zadn.vn/w660/Uploaded/tmuitg/2016_08_29/15_2.jpg" alt="Cầu Long Biên" data-toggle="modal" data-target="#modal" onclick="setData(4)">
+			</div>
+			<div class="data-container col-lg-4 col-md-12 col-sm-12" data-toggle="tooltip" data-placement="top" title="Hồ Hoàn Kiếm">
+				<img src="https://znews-photo.zadn.vn/w660/Uploaded/tmuitg/2016_08_29/14063762_877869315681318_9190235084934697285_n.jpg" alt="Hồ Hoàn Kiếm" data-toggle="modal" data-target="#modal" onclick="setData(5)">
+			</div>
+		</div>
+		<div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+		  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h5 class="modal-title" id="modal-title"></h5>
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Đóng">
+		          <span aria-hidden="true">&times;</span>
+		        </button>
+		      </div>
+		      <div class="modal-body row">
+		        <div class="col-lg-6 col-md-6 col-sm-12">
+		        	<p id="modal-text"></p>
+		        </div>
+		        <div class="col-lg-6 col-md-6 col-sm-12">
+		        	<img id="modal-image" src="https://upload.wikimedia.org/wikipedia/commons/2/24/Hanoi_Opera_House_1.jpg8900"></img>
+		        </div>
+		        <div class="col-lg-12 col-md-12 col-sm-12">
+		        	<h3>Tìm hiểu thêm</h3>
+		        	<iframe src="" id="modal-video"></iframe>
+		        </div>
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>		
 	</div>
+	<div class="row" id="footer">
+		<div class="col-sm-12 col-lg-4 col-md-4">
+			<h1>Tác giả</h1>
+			<h3>Nguyễn Đình Anh</h3>
+			<p style="font-weight: bold;">&#169; Copyright 2018 - Nguyễn Đình Anh</p>
+		</div>
+		<div class="col-sm-12 col-lg-4 col-md-4">
+			<p style="font-weight: bold;">Đây là một bài Assignment của trường Đại Học Trực Tuyến FUNiX</p>
+			<div class="banner"><a  target="_blank" href="https://funix.edu.vn/"><img src="http://www.funix.edu.vn/wp-content/uploads/2017/10/logo.png" alt="Funix-Banner"></a></div>
+		</div>
+		<div class="col-sm-12 col-lg-4 col-md-4">
+			<h1 style="text-align: center;">Liên hệ với tác giả</h1>
+			<div id="contact">
+				<a href="https://github.com/DAN3002" target="_blank"><img src="../../Data/Image/Github.png" alt="Github" class="contact-item"></a>
+				<a href="https://plus.google.com/u/0/112241420261626809316" target="_blank"><img src="../../Data/Image/Gmail.png" alt="Gmail" class="contact-item"></a>
+				<a href="https://www.youtube.com/channel/UCp8h46TWMs1qjeepv_QWJkA" target="_blank"><img src="../../Data/Image/Youtube.png" alt="Youtube" class="contact-item"></a>
+			</div>
+		</div>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>	
+	<script type="text/javascript" src="../../JS/modal.js"></script>		
 </body>
 </html>

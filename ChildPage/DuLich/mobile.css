@@ -37,4 +37,35 @@
 	#footer{
 		padding-bottom: 4vh;
 	}	
+	.tooltip-inner{
+		font-size: 5vw;
+	}	
+	#body-container > div{
+		margin-bottom: 0px;
+	}
+	#body-container > div > div{
+		margin-bottom: 5vh;
+	}	
+	#body-container > h1{
+		font-size: 7vw;
+		margin-top: 20px;
+		margin-bottom: 0px;
+	}
+	#body-container > h3, .modal-body > div > h3{
+		font-size: 6.5vw;
+		margin-top: 5px;
+		margin-bottom: 20px;
+	}	
+	#modal-video{
+		height: 50vw;
+	}
+	.modal-body > div:nth-child(3){
+		margin-top: 3vw;
+	}
+	#modal-title{
+		font-size: 7vw;
+	}	
+	#modal-text{
+		font-size: 5vw;
+	}
 }
