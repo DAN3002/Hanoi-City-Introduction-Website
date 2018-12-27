@@ -35,3 +35,4 @@ function init()
     	$(".popup-text").fadeOut();
     }
 }
+
