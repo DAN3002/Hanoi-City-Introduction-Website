@@ -32,108 +32,36 @@
 			</div>
 		</div>			
 	</div>
-	<div id="body-container" data-spy="scroll" data-target="#scrollspy-nav" data-offset="110">
-		<div id="nav">
-			<nav id="scrollspy-nav" class="navbar navbar-light bg-light">
-				<ul class="nav nav-pills">
-					<li class="nav-item">
-						<a href="#section1" class="nav-link">Tiền Thăng Long</a>
-					</li>
-					<li class="nav-item">
-						<a href="#section2" class="nav-link">Thăng Long</a>
-					</li>
-					<li class="nav-item">
-						<a href="#section3" class="nav-link">Nhà Nguyễn và Pháp thuộc</a>
-					</li>
-					<li class="nav-item">
-						<a href="#section4" class="nav-link">2 cuộc chiến tranh</a>
-					</li>
-					<li class="nav-item">
-						<a href="#section5" class="nav-link">Hà Nội đương đại</a>
-					</li>
-				</ul>
-			</nav>				
-		</div>	
-		<div id="section1">
-			<div class="text-container">
-				<h1>Tiền Thăng Long</h1>
-				<p>Những di chỉ khảo cổ tại Cổ Loa cho thấy con người đã xuất hiện ở khu vực Hà Nội từ cách đây 2 vạn năm, giai đoạn của nền văn hóa Sơn Vi. Nhưng đến thời kỳ băng tan, biển tiến sâu vào đất liền, các cư dân của thời đại đồ đá mới bị đẩy lùi lên vùng núi. Phải tới khoảng 4 hoặc 5 ngàn năm trước Công Nguyên, con người mới quay lại sinh sống ở nơi đây. Các hiện vật khảo cổ giai đoạn tiếp theo, từ đầu thời đại đồ đồng đến đầu thời đại đồ sắt, minh chứng cho sự hiện diện của Hà Nội ở cả bốn thời đại văn hóa: Phùng Nguyên, Đồng Đậu, Gò Mun và Đông Sơn.[29] Những cư dân Hà Nội thời kỳ đó sinh sống nhờ trồng trọt, chăn nuôi và chài lưới. Giai đoạn tiền sử này tương ứng với thời kỳ của các Vua Hùng trong truyền thuyết. Thế kỷ III trước Công Nguyên, trong cuộc chiến với quân Tần từ phương Bắc, Thục Phán quyết định đóng đô ở Cổ Loa, nay là huyện Đông Anh, cách trung tâm Hà Nội khoảng 15 km. Sự xuất hiện của thành Cổ Loa ghi dấu Hà Nội lần đầu tiên trở thành một đô thị trung tâm về chính trị và xã hội.</p>
-			</div>
-			<div class="image-container row">
+	<div id="body-container" class="row">
+		<nav id="scrollspy-nav" class="navbar">
+			<ul class="nav nav-pills">
+				<li class="nav-item chossed" onclick="changePage(0)" id="nav-item0">
+					<a  class="nav-link">Tiền Thăng Long</a>
+				</li>				
+				<li class="nav-item" onclick="changePage(1)" id="nav-item1">
+					<a  class="nav-link">Thăng Long</a>
+				</li>
+				<li class="nav-item" onclick="changePage(2)" id="nav-item2">
+					<a  class="nav-link">Nhà Nguyễn và Pháp thuộc</a>
+				</li>
+				<li class="nav-item" onclick="changePage(3)" id="nav-item3">
+					<a  class="nav-link">2 cuộc chiến tranh</a>
+				</li>
+				<li class="nav-item" onclick="changePage(4)" id="nav-item4">
+					<a  class="nav-link">Hà Nội đương đại</a>
+				</li>
+			</ul>
+		</nav>				
+		<div class="row" id="content">
 				<div class="col-lg-6 col-md-6 col-sm-12">
-					<img src="http://hanoi.vietnamplus.vn/avatar.aspx?ID=112&at=0&ts=300&lm=634060813543400000" alt="Thành Cổ Loa ở huyện Đông Anh, Hà Nội.">
-					<h5>Thành Cổ Loa ở huyện Đông Anh, Hà Nội</h5>
+					<h1 id="title">Tiền Thăng Long</h1>
+					<p id="text">Những di chỉ khảo cổ tại Cổ Loa cho thấy con người đã xuất hiện ở khu vực Hà Nội từ cách đây 2 vạn năm, giai đoạn của nền văn hóa Sơn Vi. Các hiện vật khảo cổ giai đoạn tiếp theo, từ đầu thời đại đồ đồng đến đầu thời đại đồ sắt, minh chứng cho sự hiện diện của Hà Nội ở cả bốn thời đại văn hóa: Phùng Nguyên, Đồng Đậu, Gò Mun và Đông Sơn. Những cư dân Hà Nội thời kỳ đó sinh sống nhờ trồng trọt, chăn nuôi và chài lưới. Giai đoạn tiền sử này tương ứng với thời kỳ của các Vua Hùng trong truyền thuyết. Thế kỷ III trước Công Nguyên, trong cuộc chiến với quân Tần từ phương Bắc, Thục Phán quyết định đóng đô ở Cổ Loa, nay là huyện Đông Anh, cách trung tâm Hà Nội khoảng 15 km. Sự xuất hiện của thành Cổ Loa ghi dấu Hà Nội lần đầu tiên trở thành một đô thị trung tâm về chính trị và xã hội.</p>
 				</div>
-				<div class="col-lg-6 col-md-6 col-sm-12">
-					<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/B%E1%BA%AFc_M%C3%B4n.JPG/240px-B%E1%BA%AFc_M%C3%B4n.JPG" alt="Cửa Bắc thành Hà Nội.">
-					<h5>Cửa Bắc thành Hà Nội.</h5>
+				<div class="col-lg-6 col-md-6 col-sm-12 img">
+					<img src="http://hanoi.vietnamplus.vn/avatar.aspx?ID=112&at=0&ts=300&lm=634060813543400000" id="image">
+					<h4 id="image-title">Thành Cổ Loa ở huyện Đông Anh, Hà Nội</h4>
 				</div>
-			</div>
-		</div>
-		<div id="section2">
-			<div class="text-container">
-				<h1>Thăng Long</h1>
-				<p>Sau khi lên ngôi năm 1009 tại Hoa Lư, năm 1010, Lý Thái Tổ quyết định dời đô về Đại La. Theo một truyền thuyết phổ biến, khi tới Đại La, Lý Thái Tổ nhìn thấy một con rồng bay lên, vì vậy đặt tên kinh thành mới là Thăng Long. Kinh thành Thăng Long khi đó giới hạn bởi ba con sông: sông Hồng ở phía Đông, sông Tô phía Bắc và sông Kim Ngưu phía Nam. Khu hoàng thành được xây dựng gần hồ Tây với cung điện hoàng gia cùng các công trình chính trị. Phần còn lại của đô thị là những khu dân cư, bao gồm các phường cả nông nghiệp, công nghiệp và thương nghiệp. Ngay trong thế kỷ X, nhiều công trình tôn giáo nhanh chóng được xây dựng, chùa Diên Hựu phía Tây hoàng thành xây năm 1049, chùa Báo Thiên xây năm 1057, Văn Miếu xây năm 1070, Quốc Tử Giám dựng năm 1076... Chỉ sau một thế kỷ, Thăng Long trở thành trung tâm văn hóa, chính trị và kinh tế của cả quốc gia.</p>
-			</div>
-			<div class="image-container row">
-				<div class="col-lg-6 col-md-6 col-sm-12">
-					<img src="http://vuonhoaphatgiao.com/uploads/noidung/images/lich_su/chua-bao-thien(1).jpg" alt="Chùa Báo Thiên">
-					<h5>Chùa Báo Thiên</h5>
-				</div>
-				<div class="col-lg-6 col-md-6 col-sm-12">
-					<img src="https://mytourcdn.com/upload_images/Image/Location/16_6_2014/Van-mieu-quoc-tu-giam-ha-noi.jpg" alt="Văn Miếu">
-					<h5>Văn Miếu</h5>
-				</div>
-			</div>
-		</div>
-		<div id="section3">
-			<div class="text-container">
-				<h1></h1>
-				<p></p>
-			</div>
-			<div class="image-container row">
-				<div class="col-lg-6 col-md-6 col-sm-12">
-					<img src="" alt="">
-					<h5></h5>
-				</div>
-				<div class="col-lg-6 col-md-6 col-sm-12">
-					<img src="" alt="">
-					<h5></h5>
-				</div>
-			</div>
-		</div>
-		<div id="section4">
-			<div class="text-container">
-				<h1></h1>
-				<p></p>
-			</div>
-			<div class="image-container row">
-				<div class="col-lg-6 col-md-6 col-sm-12">
-					<img src="" alt="">
-					<h5></h5>
-				</div>
-				<div class="col-lg-6 col-md-6 col-sm-12">
-					<img src="" alt="">
-					<h5></h5>
-				</div>
-			</div>
-		</div>
-		<div id="section5">
-			<div class="text-container">
-				<h1></h1>
-				<p></p>
-			</div>
-			<div class="image-container row">
-				<div class="col-lg-6 col-md-6 col-sm-12">
-					<img src="" alt="">
-					<h5></h5>
-				</div>
-				<div class="col-lg-6 col-md-6 col-sm-12">
-					<img src="" alt="">
-					<h5></h5>
-				</div>
-			</div>
-		</div>
+			</div>	
 	</div>
 	<div class="row" id="footer">
 		<div class="col-sm-12 col-lg-4 col-md-4">
@@ -154,8 +82,6 @@
 			</div>
 		</div>
 	</div>	
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>	
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>	
+	<script type="text/javascript" src="../../JS/changer.js"></script>
 </body>
 </html>

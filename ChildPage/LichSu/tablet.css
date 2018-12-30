@@ -40,5 +40,23 @@
 	#footer{
 		padding-bottom: 30px;
 	}
+	.nav-link{
+		font-size: 14px;		
+	}	
+	#scrollspy-nav > ul{
+		margin: 12px auto;
+	}
+	#text{
+		font-size: 13px;
+	}
+	#image-title{
+		font-size: 14px;
+	}	
+	#title{
+		font-size:  20px;
+	}
+	#content	
+	{
+		margin-bottom: 0px;
+	}		
 }		
-}

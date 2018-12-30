@@ -1,7 +1,7 @@
 @media only screen and (min-width: 992px){
-	body{
-		padding-right: 60px;
-		padding-left: 60px		
+	#body-container{
+		margin-right: 200px;
+		margin-left: 200px		
 	}	
 	#contact{
 		width: 50%;
@@ -41,5 +41,33 @@
 	}	
 	.nav-link{
 		font-size: 20px;		
+	}	
+	#scrollspy-nav > ul{
+		margin: 15px auto;
+	}
+	#text{
+		font-size: 17px;
+	}
+	#content	
+	{
+		margin-bottom: 20px;
+	}
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1426px){
+	#body-container{
+		margin-left: 100px;
+		margin-right: 100px;
+	}	
+	.nav-link{
+		font-size: 15px;		
+	}	
+	.img{
+		margin-top: auto;
+		margin-bottom: auto;
+	}
+	#content	
+	{
+		margin-bottom: 0px;
 	}	
 }

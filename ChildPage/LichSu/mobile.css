@@ -37,4 +37,31 @@
 	#footer{
 		padding-bottom: 4vh;
 	}	
+	.nav-link{
+		font-size: 5vw;	
+		text-align: center;	
+	}	
+	#scrollspy-nav > ul{
+		margin: 10px auto;
+	}
+	#scrollspy-nav > ul > li{
+		width: 80vw;
+		margin-right: auto;
+		margin-left: auto;
+		margin-bottom: 3px;
+		display: list-item;
+	}
+	#text{
+		font-size: 4vw;
+	}
+	#image-title{
+		font-size: 5vw;
+	}	
+	#title{
+		font-size:  7vw;
+	}	
+	#content	
+	{
+		margin-bottom: 0px;
+	}		
 }
