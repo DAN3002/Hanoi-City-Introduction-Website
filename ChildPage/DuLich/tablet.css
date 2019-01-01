@@ -42,6 +42,7 @@
 	}
 	.tooltip-inner{
 		font-size: 17px;
+		display: none;
 	}	
 	#body-container > div{
 		margin-bottom: 0px;

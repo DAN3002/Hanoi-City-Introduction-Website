@@ -41,24 +41,24 @@
 	<div id="body-container" class="row">
 		<nav id="scrollspy-nav" class="navbar">
 			<ul class="nav nav-pills">
-				<li class="nav-item chossed" onclick="changePage(0)" id="nav-item0">
+				<li class="nav-item chossed" onclick="changePage(0)" id="nav-item0" data-aos="zoom-in" data-aos-duration="250" data-aos-delay="50">
 					<a  class="nav-link">Tiền Thăng Long</a>
 				</li>				
-				<li class="nav-item" onclick="changePage(1)" id="nav-item1">
+				<li class="nav-item" onclick="changePage(1)" id="nav-item1" data-aos="zoom-in" data-aos-duration="250" data-aos-delay="300">
 					<a  class="nav-link">Thăng Long</a>
 				</li>
-				<li class="nav-item" onclick="changePage(2)" id="nav-item2">
+				<li class="nav-item" onclick="changePage(2)" id="nav-item2" data-aos="zoom-in" data-aos-duration="250" data-aos-delay="550">
 					<a  class="nav-link">Nhà Nguyễn và Pháp thuộc</a>
 				</li>
-				<li class="nav-item" onclick="changePage(3)" id="nav-item3">
+				<li class="nav-item" onclick="changePage(3)" id="nav-item3" data-aos="zoom-in" data-aos-duration="250" data-aos-delay="800">
 					<a  class="nav-link">2 cuộc chiến tranh</a>
 				</li>
-				<li class="nav-item" onclick="changePage(4)" id="nav-item4">
+				<li class="nav-item" onclick="changePage(4)" id="nav-item4" data-aos="zoom-in" data-aos-duration="250" data-aos-delay="1050">
 					<a  class="nav-link">Hà Nội đương đại</a>
 				</li>
 			</ul>
 		</nav>				
-		<div class="row" id="content">
+		<div class="row" id="content" data-aos="fade-up" data-aos-duration="500" data-aos-delay="1300">
 				<div class="col-lg-6 col-md-6 col-sm-12">
 					<h1 id="title">Tiền Thăng Long</h1>
 					<p id="text">Những di chỉ khảo cổ tại Cổ Loa cho thấy con người đã xuất hiện ở khu vực Hà Nội từ cách đây 2 vạn năm, giai đoạn của nền văn hóa Sơn Vi. Các hiện vật khảo cổ giai đoạn tiếp theo, từ đầu thời đại đồ đồng đến đầu thời đại đồ sắt, minh chứng cho sự hiện diện của Hà Nội ở cả bốn thời đại văn hóa: Phùng Nguyên, Đồng Đậu, Gò Mun và Đông Sơn. Những cư dân Hà Nội thời kỳ đó sinh sống nhờ trồng trọt, chăn nuôi và chài lưới. Giai đoạn tiền sử này tương ứng với thời kỳ của các Vua Hùng trong truyền thuyết. Thế kỷ III trước Công Nguyên, trong cuộc chiến với quân Tần từ phương Bắc, Thục Phán quyết định đóng đô ở Cổ Loa, nay là huyện Đông Anh, cách trung tâm Hà Nội khoảng 15 km. Sự xuất hiện của thành Cổ Loa ghi dấu Hà Nội lần đầu tiên trở thành một đô thị trung tâm về chính trị và xã hội.</p>
@@ -89,5 +89,9 @@
 		</div>
 	</div>	
 	<script type="text/javascript" src="../../JS/changer.js"></script>
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+	<script>
+	   AOS.init();
+	</script>		
 </body>
 </html>
