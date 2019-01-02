@@ -1,37 +1,29 @@
-## Welcome to GitHub Pages
+#Hà Nội Page.
+One small Website to introduce Hà Nội city in Việt Nam.
 
-You can use the [editor on GitHub](https://github.com/DAN3002/HaNoi-Page/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+## Visuals
+You can visit this website at: 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+* https://dan3002.000webhostapp.com/
+* https://dan3002.github.io/hanoi-page/index.html
 
-### Markdown
+## Built With
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+* [Bootstrap](https://getbootstrap.com/) - Grid layout and some components.
+* [AOS libary](https://github.com/michalsnik/aos) - Animation on scroll.
+* [Font Awesome](https://fontawesome.com/) - Icon.
+* [Google Font](https://fonts.google.com/) - Font.
 
-```markdown
-Syntax highlighted code block
+## Contributing
 
-# Header 1
-## Header 2
-### Header 3
+1. Fork it!
+2. Create your feature branch: `git checkout -b my-new-feature`.
+3. Commit your changes: `git commit -am 'Add some feature'`.
+4. Push to the branch: `git push origin my-new-feature`.
+5. Submit a pull request.
 
-- Bulleted
-- List
+## Author
+D.A.N_3002
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/DAN3002/HaNoi-Page/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+* Youtube Channel: https://www.youtube.com/channel/UCp8h46TWMs1qjeepv_QWJkA
+* Gmail: dinhanh300229@gmail.com
