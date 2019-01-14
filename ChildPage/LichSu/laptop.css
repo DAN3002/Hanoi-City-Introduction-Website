@@ -1,8 +1,4 @@
 @media only screen and (min-width: 992px){
-	#body-container{
-		margin-right: 200px;
-		margin-left: 200px		
-	}	
 	#contact{
 		width: 50%;
 	}		
@@ -48,10 +44,11 @@
 	#text{
 		font-size: 17px;
 	}
-	#content	
-	{
-		margin-bottom: 20px;
-	}
+	#body-container{	
+		margin-right: 200px; 
+		margin-left: 200px;		
+		height: 100%;
+	}	
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1426px){

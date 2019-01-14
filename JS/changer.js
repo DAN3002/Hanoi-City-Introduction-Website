@@ -42,6 +42,10 @@ function changePage(index) {
 		src: image[index]
 	});
 
+	if($(window).width() > 992)
+	{
+		$("#body-container").css('height', $(window).height() - $("#menu").height() -  $("#footer").height() + "px");	
+	}
 	$(".chossed").removeClass("chossed");	 
 	$("#nav-item" + index).addClass("chossed");
 }
